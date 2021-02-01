@@ -26,6 +26,8 @@ class ImageGallery extends Component {
 
       this.getData();
     }
+
+    this.scrollPage();
   }
 
   getData = () => {
@@ -58,7 +60,6 @@ class ImageGallery extends Component {
 
   loadMore = () => {
     this.getData();
-    this.scrollPage();
   };
 
   scrollPage = () => {
