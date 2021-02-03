@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ImageGalleryItem from '../ImageGalleryItem/ImageGalleryItem';
 import s from './ImageGallery.module.css';
-import api from '../Services/pixabay-api';
+import api from '../../Services/pixabay-api';
 import Loader from 'react-loader-spinner';
 import Modal from '../Modal/Modal';
 import Button from '../Button/Button';
